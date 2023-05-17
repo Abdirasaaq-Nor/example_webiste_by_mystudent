@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #001247;
+}
+
+/* ............................. section 1............... */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.main h1 {
+  font-size: 35px;
+  width: 500px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.main p {
+  color: rgb(109, 109, 109);
+  font-size: 14px;
+  font-family: serif;
+  width: 500px;
+  display: flex;
+  align-content: center;
+  padding: 10px 0px 0px 0px;
+}
+
+/* ....................... section 2 cards............... */
+.main_card {
+  margin: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 10px;
+}
+.card1 {
+  background-color: white;
+  width: 260px;
+  height: 360px;
+  border-radius: 4px;
+}
+.card1 img {
+  width: 260px;
+  height: 200px;
+}
+.content {
+  padding: 10px;
+}
+.content h1 {
+  font-family: sans-serif;
+  padding-top: 20px;
+}
+.content p {
+  color: rgb(59, 59, 59);
+  padding-top: 10px;
+  font-family: serif;
+}
+
+/* ....................... sectionm 3................. */
+
+.main_sec_3 {
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contatcs {
+  color: white;
+}
+.forms_ {
+  display: flex;
+  margin: 0px 0px 0px 10px;
+}
+.name,
+.email {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 10px;
+}
+
+.name input[type="text"] {
+  width: 240px;
+  height: 40px;
+  padding-left: 4px;
+  outline: none;
+  margin-top: 8px;
+}
+.contatcs h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 10px 0px 10px 0px;
+  font-size: 35px;
+}
+.email input[type="email"] {
+  width: 240px;
+  height: 40px;
+  padding-left: 4px;
+  outline: none;
+  margin-top: 8px;
+}
+.btn {
+  background-color: #ffc14d;
+  width: 492px;
+  margin-left: 19px;
+  color: white;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+/* ................................ section 4..................... */
+.main_navs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.div_one h2 {
+  color: white;
+  font-weight: 600;
+  padding: 10px 0px 10px 0px;
+}
+.div_one h5 {
+  color: rgb(199, 199, 199);
+  padding: 4px 0px 4px 0px;
+}
+.div_one,
+.three {
+  margin: 20px 20px 0px 20px;
+}
+
+.three h2 {
+  color: white;
+  font-weight: 600;
+  padding: 10px 0px 10px 0px;
+}
+.two {
+  margin-top: 40px;
+}
+.three h5 {
+  color: yellow;
+  padding: 10px 0px 10px 0px;
+}
+
+/* .....................footer */
+
+footer {
+  background-color: rgb(42, 42, 42);
+  height: 60px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: serif;
+}
